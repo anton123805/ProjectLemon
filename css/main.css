@@ -1,0 +1,302 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #eaeaea;
+  font-family: "Josefin Sans", "FontAwesome";
+}
+.container {
+  margin: 0 auto;
+  max-width: 1120px;
+}
+#logo img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 250px;
+  margin-bottom: 120px;
+  width: 380px;
+  height: 160px;
+}
+#top_menu {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  height: 124px;
+  margin-bottom: 85px;
+}
+#top_menu img {
+  width: 87px;
+  height: 36px;
+  margin: 0 94px;
+}
+#top_menu ul {
+  list-style: none;
+}
+#top_menu li {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: light;
+  text-transform: uppercase;
+  margin-right: 30px;
+}
+#top_menu li:last-child {
+  margin-right: 9px;
+}
+#top_menu p {
+  border: 1px solid #c2c2c2;
+  width: 162px;
+  height: 40px;
+  text-align: center;
+  padding-left: 28px;
+  padding-top: 10px;
+}
+#top_menu span {
+  color: #c2c2c2;
+}
+.test {
+  border: 1px solid red;
+}
+.normaltext {
+  font-size: 16px;
+  color: #000;
+  font-weight: light;
+}
+#Hero_Page {
+  padding-left: 90px;
+  height: 440px;
+  flex-flow: column;
+  background: url(../img/Photo.png) no-repeat center center;
+}
+#Hero_Page img {
+  margin-top: 60px;
+  width: 252px;
+  height: 105px;
+}
+#Hero_Page h2 {
+  margin-top: 36px;
+  font-size: 24px;
+  font-family: "Playfair Display";
+  color: #911026;
+}
+#Hero_Page p {
+  margin-top: 30px;
+  font-size: 16px;
+  color: #000;
+  font-weight: light;
+  width: 312px;
+}
+#Hero_Page span {
+  display: inline-block;
+  border: 1px solid #c2c2c2;
+  width: 105px;
+  height: 27px;
+  font-size: 16px;
+  color: #000;
+  font-weight: light;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 24px;
+  padding: 6px;
+}
+.info {
+  font-size: 12px;
+  font-family: "Open Sans", "FontAwesome";
+  font-weight: light;
+}
+#recipees {
+  margin-top: 84px;
+  padding: 40px 45px 47px 54px;
+  background-color: #fff;
+  display: flex;
+  flex-flow: row nowrap;
+}
+.item {
+  display: flex;
+  flex-flow: column;
+}
+.item p {
+  font-size: 16px;
+  color: #000;
+  font-weight: light;
+  font-size: 18px;
+  margin: 18px 0 7px 0;
+}
+.item span {
+  font-size: 12px;
+  font-family: "Open Sans", "FontAwesome";
+  font-weight: light;
+}
+.item:nth-child(2) {
+  margin: 0 42px;
+}
+#recipe {
+  margin-top: 86px;
+  background: url(../img/recipe.png) center center no-repeat;
+  width: 1120px;
+  height: 440px;
+}
+.about {
+  margin: 32px;
+  display: flex;
+  flex-flow: row wrap;
+  width: 515px;
+  height: 372px;
+  float: right;
+}
+.about h2 {
+  flex-basis: 490px;
+}
+.about h4 {
+  flex-basis: 150px;
+  color: #717171;
+}
+.about span {
+  border: 1px solid #c2c2c2;
+  width: 105px;
+  height: 28px;
+  text-align: center;
+  flex-basis: 105px;
+  padding-top: 5px;
+  margin-left: 230px;
+}
+.about p {
+  flex-basis: 515px;
+  font-size: 16px;
+  color: #000;
+  font-weight: light;
+}
+#review {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
+#review .item1 {
+  display: flex;
+  flex-flow: column;
+  flex-grow: 1;
+  margin-top: 140px;
+  height: 520px;
+  width: 520px;
+  background: url(../img/sorry.png) center center no-repeat;
+}
+#review .item1 h4 {
+  margin-top: 24px;
+  margin-left: 45px;
+  font-weight: regular;
+  font-size: 20px;
+  color: #000;
+}
+#review .item1 hr {
+  margin-top: 11px;
+  margin-left: 34px;
+  margin-right: 47px;
+  width: 440px;
+  height: 2px;
+  color: #dddddd;
+}
+#review .item1 h2 {
+  margin-top: 152px;
+  margin-left: 242px;
+  font-size: 34px;
+  font-weight: bold;
+}
+#review .item1 p {
+  margin-top: 13px;
+  margin-left: 230px;
+  font-family: "Playfair Display";
+  font-weight: black;
+  color: #a9a9a9;
+}
+#review .item1 span {
+  height: 30px;
+  width: 30px;
+  margin-top: 15px;
+  margin-left: 275px;
+  font-family: "Playfair Display";
+  font-weight: black;
+  font-size: 33px;
+  display: inline-block;
+  transform: rotate(85deg);
+}
+#review .item1 div {
+  margin-top: 105px;
+  margin-left: 228px;
+  border: 1px solid #c2c2c2;
+  width: 105px;
+  height: 28px;
+  text-align: center;
+  padding-top: 10px;
+}
+#review .item2 {
+  display: flex;
+  flex-flow: column;
+  flex-grow: 1;
+  margin-top: 140px;
+  height: 520px;
+  width: 520px;
+  background: #fff;
+}
+#review .item2 h4 {
+  margin-top: 24px;
+  margin-left: 45px;
+  font-weight: regular;
+  font-size: 20px;
+  color: #000;
+}
+#review .item2 hr {
+  margin-top: 11px;
+  margin-left: 34px;
+  margin-right: 47px;
+  width: 440px;
+  height: 2px;
+  color: #dddddd;
+}
+#review .item2 .bio {
+  display: flex;
+  flex-flow: column wrap;
+  margin-right: auto;
+  height: 135px;
+}
+#review .item2 .bio img {
+  margin-top: 23px;
+  margin-left: 31px;
+  flex-basis: 130px;
+  width: 130px;
+}
+#review .item2 .bio * {
+  margin-left: 20px;
+}
+#review .item2 .bio hr {
+  width: 291px;
+  height: 2px;
+  color: #dddddd;
+}
+#review .item2 .bio h1 {
+  margin-top: 39px;
+  font-size: 24px;
+  font-weight: bold;
+}
+#review .item2 .bio h3 {
+  font-size: 16px;
+  color: #000;
+  font-weight: light;
+  margin-top: 7px;
+}
+#review .item2 .bio span {
+  color: #555555;
+  font-size: 16px;
+  margin-top: 14px;
+}
+#review .item2 .about {
+  margin-left: 182px;
+  width: 300px;
+  height: 300px;
+}
+#review .item2 .about p {
+  margin-top: 32px;
+}
+#review .item2 .about img {
+  margin-left: 130px;
+}
